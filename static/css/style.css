@@ -98,10 +98,17 @@ h1 {
   font-weight: 400;
 }
 
-h2,
-h3 {
-  font-weight: 400;
+h2, h3 {
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
 }
+
+
 p {
   margin-block-start: 1.5em;
   margin-block-end: 1.5em;
@@ -300,7 +307,7 @@ nav.navigation a.button {
 
 /* index post list */
 #list-page {
-  max-width: 580px;
+  max-width: 600px;
   margin: 0 auto;
   padding: 0 24px;
 }
